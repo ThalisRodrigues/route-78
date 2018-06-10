@@ -4,7 +4,7 @@
 				echo " ".$_SESSION["nome"];
 			}else{
 				echo "<script> alert ('Você não esta logado')</script>";
-				echo "<script> location.href = ('index.php')</script>";
+				echo "<script> location.href = ('index2.php')</script>";
 			}
 		?>
 		<label>
