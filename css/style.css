@@ -1,0 +1,246 @@
+#body{
+	margin:auto;
+	width:800px;
+	height:800px;
+	background-image: linear-gradient(to bottom,#FFFAFA,#1369ae);	
+	border-radius: 20px 20px 0px 0px;
+}
+#head{
+	margin:auto;
+	width:800px;
+	height:150px;		
+	border-radius: 20px 20px 0px 0px;
+}
+#usuario{
+	margin:auto;
+	width:800px;
+	height:30px;
+	vertical-align: middle;
+	background-color:#000000;
+	color:#FFFFFF;
+	border-radius: 20px 20px 0px 0px;
+	text-align:right;
+}
+  #table001 {    
+   margin-left:-30;
+   width:800px;
+   text-align:right;
+  }
+  /** tabela da logo */
+#logo_table {    
+   padding: 0 120;
+    margin-top:-10;
+  }
+ #logo_table2 {    
+	padding: 35 220;
+	text-align:center;	
+  }
+  /** tabela do menu */
+#menu-table {    
+   margin-left:60px;
+   width:650px;
+   text-align:center;
+  }
+#menu{
+	margin:auto;
+	width:800px;
+	height:30px;	
+	background-color:#000000;
+	text-align:center;	
+}
+#rodape{
+	margin-top:-30px;
+	width:800px;
+	height:30px;	
+	background-color:#000000;
+	border-radius: 0px 0px 20px 20px;
+}
+#rodape2{
+		position: relative;
+		top: 0; bottom: 0;
+		left: 0; right: 0;
+		margin: auto;		
+		width:800px;
+		height:30px;	
+		background-color:#000000;
+		border-radius: 0px 0px 20px 20px;
+}
+a:link, a:visited {
+	text-decoration: none;
+	color:#FFFFFF;
+	font-size:120%;
+	font-family:Verdana;
+}
+a:hover {
+	text-decoration: none; 
+	color: #FFFFFF;
+	 
+}
+a:active {
+	text-decoration: none
+}
+#corpo{
+	margin:auto;
+	width:600px;
+	height:600px;
+}
+#conteudo{
+	margin:auto;
+	font-family:Verdana;
+	text-align:center;
+}
+h4{
+	color:FFFFFF;
+	text-align:center;
+	padding: 8;
+	font-family:Verdana;
+	font-size:12px;
+}	
+h2{
+	color:FFFFFF;
+	text-align:center;
+	padding: 8;
+	font-family:Verdana;
+	font-size:30px;
+}	
+
+/** CODIGO DO BOTAO DE PESQUISA */
+
+#search-box {
+    position: relative;
+    width: 100%;
+    margin: 0;
+}
+#search-form {
+    height: 40px;
+    border: 1px solid #999;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+}
+#pesquisa {
+    font-size: 14px;
+    color: #ddd;
+    border-width: 0;
+    background: transparent;
+}
+#search-box input[type="text"] {
+    width: 100%;
+    padding: 11px 0 12px 1em;
+    color: #333;
+    outline: none;
+}
+#search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 42px;
+    width: 80px;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 42px;
+    border-width: 0;
+    background-color: #000000; /*--define a cor do botão Buscar--*/
+    -webkit-border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+/** CODIGO DO BANNER*/
+
+#banner #banner_img {
+	width: 900px;
+	height: 300px;
+	border: solid 3px #333;
+}
+ 
+#banner a {
+	border: solid 1px #333;
+	background-color: #F7F7F7;
+	padding: 5px;
+	text-decoration: none;
+	color: #000;
+}
+ 
+	#banner a:hover {
+		border: solid 1px #333;
+		text-decoration: underline;
+		background-color: #333;
+		color: #FFF;
+	}
+	
+	#banner a.hover {
+		background-color: #333;
+		color: #FFF;
+	}
+	
+	#banner #botoes {
+		width: 900px;
+		text-align: right;
+	}
+	 
+	#banner #botoes {
+		padding-top: 5px;
+	}
+	#formulogin{
+		position: absolute;
+		top: 0; bottom: 0;
+		left: 0; right: 0;
+		margin: auto;		
+		width: 350px;
+		height:300px;		
+		border-radius: 50px 30px 50px 30px;	
+		background-color:#000000;
+	}
+#dados{
+	position: absolute;
+	top: 20; bottom: 0;
+	left: 0; right: 0;
+	margin: auto;		
+	width: 500px;
+	height:500px;		
+	border-radius: 50px 30px 50px 30px;	
+	background-color:#000000;
+}
+h3{
+	color:#FFFFFF;
+	font-size:100%;
+	font-family:Verdana;
+	text-align:center;
+	vertical-align:center;
+}
+	#formulario{
+	font-family:Verdana;
+	color:#FFFFFF;
+	text-align:center;
+	font-size:20px;
+	padding: 40px;
+	}
+	#opcao{		
+	color:#FFFFFF;
+	text-align:center;
+	font-size:20px;
+	padding: 60px;
+	}
+	input[type=submit] {
+	font-family:Verdana;
+	font-size:20px;
+	background: transparent;
+	color:#FFFFFF;
+	border: 1px solid transparent;
+	width:120px;
+	height:30px;
+}
+	input[type=reset] {
+	font-family:Verdana;
+	font-size:20px;
+	background: transparent;
+	color:#FFFFFF;
+	border: 1px solid transparent;
+	width:120px;
+	height:30px;
+}
